@@ -1,15 +1,3 @@
-<?php
-    // Variable to check
-    $url = "https://www.w3schools.com";
-
-    // Validate url
-    if (filter_var($url, FILTER_VALIDATE_URL)) {
-        echo("$url is a valid URL");
-    } else {
-        echo("$url is not a valid URL");
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +7,8 @@
     <title>URL Validator</title>
 </head>
 <body>
-    <h2>PHP Form Validation Example</h2>
+  
+    <h1>PHP Form Validation Example</h1>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
     Name: <input type="text" name="name">
     <br><br>

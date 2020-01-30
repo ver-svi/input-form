@@ -1,26 +1,10 @@
 body {
-    background-color: darkolivegreen;
+    background-color: lightblue;
+  }
+  
+  h1 {
     color: white;
-    font-family: sans-serif;
-}
-
-.content {
-    width: 680px;
-    margin: auto;
     text-align: center;
-}
-
-.movie-list {
-    list-style: none;
-}
-
-.button {
-    color: skyblue;
-    text-decoration: none;
-    font-size: 22px;
-}
-
-.button:hover {
-    text-decoration: underline;
-}
-
+  }
+  
+  
