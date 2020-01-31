@@ -60,3 +60,6 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
+<?php
+var_dump($_GET);
+?>
